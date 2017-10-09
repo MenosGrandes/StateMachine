@@ -80,7 +80,7 @@ int main()
 //   sm.actOnSignal(signal_INIT_STATE_PUT_2);
 //   sm.actOnSignal(signal_INIT_STATE_PUT_2);
 //WRZUCAM 5
-   sm.actOnSignal(signal_INIT_STATE_PUT_1);
+    sm.actOnSignal(signal_INIT_STATE_PUT_1);
    sm.actOnSignal(signal_INIT_STATE_PUT_1);
    sm.actOnSignal(signal_INIT_STATE_PUT_2);
    sm.actOnSignal(signal_INIT_STATE_PUT_5);

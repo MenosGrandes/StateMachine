@@ -22,7 +22,7 @@ public:
         }
         else
         {
-        std::cout<<YELLOW_BEGIN"NIEOBSLUGIWANY SYGNAL! "<<signal->name<<END<<std::endl;
+        std::cout<<YELLOW_BEGIN<<"NIEOBSLUGIWANY SYGNAL! "<<signal->name<<END<<std::endl;
         return nullptr;
         }
     }

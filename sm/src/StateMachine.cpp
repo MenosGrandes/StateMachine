@@ -1,8 +1,14 @@
-#include "StateMachine.h"
+#include "../include/StateMachine.h"
 
-StateMachine::StateMachine()
+StateMachine::StateMachine(State * _defaultState, std::function<void()> _defaultFunction)
 {
-    //ctor
+
+    addState(_defaultState);
+    setCurrentState(_defaultState);
+    defaultState = _defaultState;
+    defaultFunction = _defaultFunction;
+
+
 }
 
 StateMachine::~StateMachine()

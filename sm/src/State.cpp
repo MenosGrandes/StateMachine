@@ -1,6 +1,6 @@
-#include "State.h"
+#include "../include/State.h"
 
-State::State()
+State::State(std::string _name):name(_name)
 {
     //ctor
 }

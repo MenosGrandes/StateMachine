@@ -29,8 +29,18 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++11" />
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Port.h" />
+		<Unit filename="include/Signal.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="include/StateMachine.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Port.cpp" />
+		<Unit filename="src/Signal.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/StateMachine.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

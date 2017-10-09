@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1507563544 source:c:\users\menosg\desktop\cpp\statemachine2\sm\main.cpp
+	"Port.h"
+
+1507563485 source:c:\users\menosg\desktop\cpp\statemachine2\sm\src\port.cpp
+	"Port.h"
+
+1507564229 c:\users\menosg\desktop\cpp\statemachine2\sm\include\port.h
+	<vector>
+	<algorithm>
+	<string>
+	"Signal.h"
+
+1507564121 c:\users\menosg\desktop\cpp\statemachine2\sm\include\signal.h
+	<string>
+
+1507562110 source:c:\users\menosg\desktop\cpp\statemachine2\sm\src\state.cpp
+	"State.h"
+
+1507564121 c:\users\menosg\desktop\cpp\statemachine2\sm\include\state.h
+	"Port.h"
+
+1507562097 source:c:\users\menosg\desktop\cpp\statemachine2\sm\src\statemachine.cpp
+	"StateMachine.h"
+
+1507562097 c:\users\menosg\desktop\cpp\statemachine2\sm\include\statemachine.h
+
+1507563499 source:c:\users\menosg\desktop\cpp\statemachine2\sm\src\signal.cpp
+	"Signal.h"
+

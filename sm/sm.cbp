@@ -36,6 +36,7 @@
 		<Unit filename="include/Signal.h" />
 		<Unit filename="include/State.h" />
 		<Unit filename="include/StateMachine.h" />
+		<Unit filename="macros.cc" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Port.cpp" />
 		<Unit filename="src/Signal.cpp" />
